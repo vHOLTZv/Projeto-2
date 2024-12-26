@@ -13,7 +13,7 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     .container{
         background-color: #E9E9E9;
         margin:auto;
-        margin-top: 500px;
+        margin-top: 50px;
         width: 600px;
         box-shadow: 1px 3px 8px 1px rgba(0, 0, 0, 0.2);
         border-radius: 5px;
@@ -65,6 +65,20 @@ font-size: 15px;
 font-style: italic;
 margin-left: 15px;
     }
+    .button{
+width: 100%;
+padding: 15px 32px;
+color: #006a6a;
+background-color: #cccccc;
+font-size: 16px;
+border-radius: 4px ;
+border: none;
+margin-top: 20px;
+cursor: pointer;
+    }
+    .button:hover{
+        background-color: #E9E9E9;
+    }
 
 
 
@@ -86,11 +100,22 @@ margin-left: 15px;
          <div class="flex-container">
             <div class="coluna-1">
                 <div class="subscription">Assinatura mensal:</div>
-                <div> <span class="price">R$99,99</span> <span class="month">por mês</span></div>
+                <div> <span class="price">R$99,99</span> <span class="month">por mês.</span></div>
                 <div>Cancele a qualquer momento.</div>
-                <button>Assine Agora!</button>
+                <button class="button">Assine Agora!</button>
             </div>
-            <div class="coluna-2">Coluna 2</div>
+            <div class="coluna-2">
+                <object data="groups_48dp_FFFFFF_FILL0_wght400_GRAD0_opsz48.svg" type="image/svg+xml"></object>
+                <div>Você terá acesso:</div>
+                <ul>
+                    <li>Projetos Exclusivos</li>
+                    <li>Tutoriais</li>
+                    <li>Lives Semanais</li>
+                    <li>Material Didatico Especializado</li>
+                    <li>Fórum</li>
+                    <li>Ofertas de Empregos</li>
+                </ul>
+            </div>
         </div>
     </div>
 </body>
